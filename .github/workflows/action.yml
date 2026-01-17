@@ -1,0 +1,14 @@
+name: Email Verification Workflow
+
+on: [push, workflow_dispatch]
+
+jobs:
+  verify-email:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup
+        run: echo "Starting the action..."
+
+      # This is the required step with your email
+      - name: 22f3000965@ds.study.iitm.ac.in
+        run: echo "Email verification step executed."
